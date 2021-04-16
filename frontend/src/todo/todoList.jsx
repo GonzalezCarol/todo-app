@@ -13,7 +13,7 @@ export default (props) => {
                     <IconButton
                         style="success"
                         icon="check"
-                        onClick={() => props.handleMarkAsDone()}
+                        onClick={() => props.handleMarkAsDone(todo)}
                     ></IconButton>
                     <IconButton
                         style="warning"
